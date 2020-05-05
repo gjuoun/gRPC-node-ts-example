@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "ts-node-dev ./src/app.ts",
+    "build": "tsc",
+    "buildRun": "tsc & node ./dist/app.js",
+    "start": "node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.4",
+    "@types/chalk": "^2.2.0",
+    "@types/winston": "^2.4.4",
+    "chalk": "^4.0.0",
+    "google-protobuf": "^3.12.0-rc.1",
+    "grpc": "^1.24.2",
+    "ts-protoc-gen": "^0.12.0",
+    "winston": "^3.2.1"
+  }
+}
