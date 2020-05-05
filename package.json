@@ -16,10 +16,13 @@
   "dependencies": {
     "@grpc/proto-loader": "^0.5.4",
     "@types/chalk": "^2.2.0",
+    "@types/google-protobuf": "^3.7.2",
     "@types/winston": "^2.4.4",
     "chalk": "^4.0.0",
     "google-protobuf": "^3.12.0-rc.1",
     "grpc": "^1.24.2",
+    "grpc-tools": "^1.8.1",
+    "grpc_tools_node_protoc_ts": "^3.0.0",
     "ts-protoc-gen": "^0.12.0",
     "winston": "^3.2.1"
   }
